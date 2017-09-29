@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/carrito"
+            android:icon="@drawable/ic_add_shopping_cart_black_24dp"
+            android:title="Carrito" />
+        <item
+            android:id="@+id/busqueda"
+            android:icon="@drawable/ic_search_black_24dp"
+            android:title="Busqueda" />
+        <item
+            android:id="@+id/historial"
+            android:icon="@drawable/ic_historial_24dp"
+            android:title="Historial" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+
+            <item
+                android:id="@+id/ayuda"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Ayuda" />
+            <item
+                android:id="@+id/buzon"
+                android:icon="@drawable/ic_mail_outline_black_24dp"
+                android:title="Buzon" />
+        </menu>
+    </item>
+
+</menu>
